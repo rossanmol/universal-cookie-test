@@ -1,7 +1,7 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit} from "@angular/core";
 
 @Component({
-  selector: 'app-home',
+  selector: "app-home",
   template: `<h3>{{ message }}</h3>`
 })
 export class HomeComponent implements OnInit {
@@ -10,6 +10,6 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.message = 'Hello';
+    this.message = "Hello";
   }
 }
